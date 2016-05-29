@@ -1,6 +1,19 @@
-var app = angular.module('flash-cards', ['ngSanitize', 'btford.markdown']);
+var app = angular.module('flash-cards',
+  ['ngSanitize', 'btford.markdown', 'ngRoute']);
 
-app.controller('MainController', function($sce, $http) {
+app.config(function($routeProvider) {
+  $routeProvider.when('/', {
+    controller: 'FlashCardController',
+    templateUrl: 'flash-card.html'
+  });
+  $routeProvider.when('/:term', {
+    controller: 'FlashCardController',
+    templateUrl: 'flash-card.html'
+  });
+});
+
+app.controller('FlashCardController', function(
+  $sce, $http, $routeParams, $location) {
 
   this.reveal = function() {
     var url = 'terms/' + this.word.replace(/ /g, '-') + '.md';
@@ -16,8 +29,15 @@ app.controller('MainController', function($sce, $http) {
     var idx = Math.floor(Math.random() * words.length);
     var word = words[idx];
     this.word = word;
+    $location.path(`/${word.replace(/ /g, '-')}`);
   };
 
-  this.another();
+  var term = $routeParams.term;
+  if (term) {
+    this.revealed = false;
+    this.word = term.replace(/-/g, ' ');
+  } else {
+    this.another();
+  }
 
 });

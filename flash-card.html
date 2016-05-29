@@ -1,0 +1,21 @@
+<div class="flash-cards" ng-controller="FlashCardController as main">
+  <h1>{{term}}</h1>
+  <div ng-show="!main.revealed" class="question">
+    <h2>What is</h2>
+    <h1>{{main.word}}?</h1>
+    <button
+      ng-show="!main.revealed" ng-click="main.reveal()">Reveal</button>
+  </div>
+  <div ng-show="main.revealed" class="explanation">
+    <btf-markdown
+      btf-markdown="main.description"
+      class="description"
+      ng-show="main.revealed"
+      >
+      # hello
+      blah
+    </div>
+    <button ng-show="main.revealed"
+      ng-click="main.another()">Another</button>
+  </div>
+</div>
