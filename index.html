@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flash Cards</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="words.js"></script>
+    <script src="angular.js"></script>
+    <script src="showdown.js"></script>
+    <script src="angular-sanitize.js"></script>
+    <script src="angular-markdown.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="flash-cards" ng-app="flash-cards" ng-controller="MainController as main">
+      <div ng-show="!main.revealed" class="question">
+        <h2>What is</h2>
+        <h1>{{main.word}}?</h1>
+        <button
+          ng-show="!main.revealed" ng-click="main.reveal()">Reveal</button>
+      </div>
+      <div ng-show="main.revealed" class="explanation">
+        <btf-markdown
+          btf-markdown="main.description"
+          class="description"
+          ng-show="main.revealed"
+          >
+          # hello
+          blah
+        </div>
+        <button ng-show="main.revealed"
+          ng-click="main.another()">Another</button>
+      </div>
+    </div>
+  </body>
+</html>
