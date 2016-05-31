@@ -1,0 +1,2 @@
+node update-words.js
+surge -p . -d flash-cards.surge.sh
