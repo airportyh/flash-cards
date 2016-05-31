@@ -26,7 +26,7 @@ button:focus {
   outline: none;
 }
 
-.description {
+.panel {
   text-align: left;
   padding: 10px;
   background-color: #eee;
@@ -35,7 +35,7 @@ button:focus {
   display: block;
 }
 
-.description h1 {
+.panel h1 {
   text-align: center;
 }
 
