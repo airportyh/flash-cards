@@ -36,7 +36,7 @@ button:focus {
 }
 
 .question {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .question h1 {
@@ -48,7 +48,7 @@ pre {
   color: white;
 }
 
-pre .highlight {
+pre .highlight, pre .hl {
   background-color: yellow;
   color: black;
 }

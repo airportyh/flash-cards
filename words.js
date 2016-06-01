@@ -4,8 +4,16 @@ var words = {
     "data binding",
     "directive",
     "expression",
+    "ng-app",
+    "ng-class",
+    "ng-click",
+    "ng-controller",
+    "ng-repeat",
+    "ng-show",
+    "ng-src",
     "scope",
-    "template"
+    "template",
+    "view"
   ],
   "CSS": [
     "CSS Selector",
