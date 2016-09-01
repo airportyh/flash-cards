@@ -24,7 +24,9 @@ var words = {
     "ID Selector",
     "background-color"
   ],
-  "HTML": [],
+  "HTML": [
+    "tag"
+  ],
   "JavaScript": [],
   "jQuery": []
 };
