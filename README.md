@@ -14,6 +14,14 @@ This site is built currently as a front-end only app. However, there is a build 
 
 This updates the `words.js` file which is used on the front-end, and will need to be subsequently checked in.
 
+### Testing Locally
+
+Use [serve](https://www.npmjs.com/package/serve) from npm, or use Python:
+
+```
+python -m SimpleHTTPServer
+```
+
 ## Adding Flash Card Terms
 
 Flash card terms are written as markdown files within subdirectories within the `terms` directory. Currently, `terms` has these subdirectories, each representing a broad category:
@@ -48,3 +56,13 @@ Another thing that's helpful for students is highlighting the thing in question 
 &lt;h1&gt;<span class="highlight">{{name}}</span>&lt;/h1&gt;
 </pre>
 ```
+
+## Publish
+
+When you are ready to publish, assuming you have collaborator access to flash-cards.surge.sh. You can run:
+
+```
+./publish
+```
+
+And your changes will be live on <http://flash-cards.surge.sh>.
