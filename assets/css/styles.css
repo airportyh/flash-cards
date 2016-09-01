@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+button {
+  font-size: 1.4em;
+  border-radius: 3px;
+  padding: 0.5px 10px;
+  background: linear-gradient(#eee, #aaa);
+  border: 1px solid #444;
+  text-shadow: 0 0 1px white;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 0px 1px 1px #000;
+}
+
+button:focus {
+  outline: none;
+}
+
+.panel {
+  max-width: 680px;
+  text-align: left;
+  padding: 10px;
+  background-color: #eee;
+  margin: 10px auto;
+  border-radius: 5px;
+  display: block;
+}
+
+.panel h1 {
+  text-align: center;
+}
+
+.question {
+  margin-top: 15%;
+}
+
+.question h1 {
+  font-size: 3em;
+}
+
+pre {
+  background-color: #333;
+  color: white;
+}
+
+pre .highlight, pre .hl {
+  background-color: yellow;
+  color: black;
+}
