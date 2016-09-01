@@ -1,6 +1,7 @@
 var words = {
   "AngularJS": [
     "controller",
+    "custom directives",
     "data binding",
     "directive",
     "expression",
@@ -9,8 +10,10 @@ var words = {
     "ng-click",
     "ng-controller",
     "ng-repeat",
+    "ng-route",
     "ng-show",
     "ng-src",
+    "routing",
     "scope",
     "template",
     "view"
