@@ -1,7 +1,7 @@
 <div class="panel" ng-controller="MainController as main">
   <h1>Welcome to Flash Cards</h1>
   <ul>
-    <li ng-repeat="category in main.categories">
+    <li class="main-category-item" ng-repeat="category in main.categories">
       <a href="#{{category}}">{{category}}</a>
     </li>
   </ul>
