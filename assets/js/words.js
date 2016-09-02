@@ -25,6 +25,7 @@ var words = {
     "background-color"
   ],
   "HTML": [
+    "attribute",
     "element",
     "semantic element",
     "tag"
