@@ -9,7 +9,7 @@ the specified ID. For example, this ID selector:
 }
 </pre>
 
-will select the follow element in the HTML document
+will select the following element in the HTML document
 
 <pre>
 &lt;div <span class="highlight">id=&quot;display&quot;</span>&gt;

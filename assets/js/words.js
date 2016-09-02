@@ -26,6 +26,7 @@ var words = {
   ],
   "HTML": [
     "attribute",
+    "doctype",
     "element",
     "semantic element",
     "tag"
