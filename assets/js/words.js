@@ -26,7 +26,7 @@ var words = {
   ],
   "HTML": [
     "element",
-    "semantic elements",
+    "semantic element",
     "tag"
   ]
 };

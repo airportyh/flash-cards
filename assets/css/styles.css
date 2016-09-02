@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-button {
+/*button {
   font-size: 1.4em;
   border-radius: 3px;
   padding: 0.5px 10px;
@@ -19,7 +19,7 @@ button:hover {
 
 button:focus {
   outline: none;
-}
+}*/
 
 .panel {
   max-width: 680px;
