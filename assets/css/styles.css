@@ -53,3 +53,7 @@ pre .highlight, pre .hl {
   background-color: yellow;
   color: black;
 }
+
+.button-wrapper {
+  padding-bottom: 20px;
+}

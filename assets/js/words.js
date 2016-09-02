@@ -29,6 +29,7 @@ var words = {
     "doctype",
     "element",
     "semantic element",
+    "style",
     "tag"
   ]
 };

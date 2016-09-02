@@ -1,7 +1,7 @@
 <div class="panel" ng-controller="MainController as main">
   <h1>Flash Cards</h1>
-  <h3>Test your knowledge of web technology terms</h3>
-  <div class="ui vertical secondary menu">
+  <div class="ui fluid vertical secondary menu">
+    <div class="header item">Choose a technology to study:</div>
     <a class="item" ng-repeat="category in main.categories" href="#{{category}}">{{category}}</a>
   </div>
 </div>
