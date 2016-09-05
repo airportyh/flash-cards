@@ -28,6 +28,7 @@ var words = {
     "attribute",
     "doctype",
     "element",
+    "heading element",
     "semantic element",
     "style",
     "tag"
