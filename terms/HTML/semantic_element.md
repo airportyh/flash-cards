@@ -1,6 +1,6 @@
 # Semantic Element
 
-Semantic elements are HTML elements that contain information about the purpose and content of the element. In other words, you should be able to look at the HTML tag and guess what the tag means.
+Semantic elements are HTML [elements](#HTML/element) that contain information about the purpose and content of the element. In other words, you should be able to look at the HTML [tag](#HTML/tag) and guess what the tag means.
 
 Examples of semantic elements include `<header>`, `<footer>`, `<section>`, and `<nav>`. It should be obvious that `<header>` contains a header, `<footer>` contains a footer, `<section>` contains a section, and `<nav>` contains a navigation menu.
 

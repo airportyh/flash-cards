@@ -1,4 +1,4 @@
-# `src` attribute
+# `src` Attribute
 
 `src` is an attribute used in `<img>` elements and `<script>` elements. `src` points to a source file.
 

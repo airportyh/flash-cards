@@ -1,7 +1,7 @@
 # `background-color` CSS Property
 
 Sets the background color of the matching DOM elements. Example,
-the following [CSS Rule](#CSS_Rule) sets the background color
+the following [CSS rule](#CSS/CSS_Rule) sets the background color
 of all `<a>` tags to yellow.
 
 <pre>

@@ -1,6 +1,6 @@
 # Doctype
 
-The doctype declaration tells the browser which version of HTML the document is written in.
+The doctype declaration tells the browser which version of HTML the [document](#HTML/document) is written in.
 
 Add the doctype declaration on the first line of the HTML document:
 

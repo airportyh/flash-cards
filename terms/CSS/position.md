@@ -1,6 +1,6 @@
 # `position` CSS Property
 
-The `position` property is one of the most important CSS properties controlling layout. `position` specifies the way that the element is positioned on the page.
+The `position` property is one of the most important [CSS properties](#CSS/CSS_Property) controlling layout. `position` specifies the way that the element is positioned on the page.
 
 There are four possible values for `position`:
 1. `static` - the default value of `position`; setting `top`, `bottom`, `left`, or `right` properties has no effect

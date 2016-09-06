@@ -19,10 +19,14 @@ var words = {
     "view"
   ],
   "CSS": [
+    "CSS Declaration",
+    "CSS Property",
+    "CSS Rule",
     "CSS Selector",
     "Class Selector",
     "ID Selector",
     "background-color",
+    "box model",
     "display",
     "media query",
     "overflow",
@@ -31,8 +35,10 @@ var words = {
   "HTML": [
     "attribute",
     "doctype",
+    "document",
     "element",
     "heading element",
+    "href",
     "semantic element",
     "span",
     "src",
