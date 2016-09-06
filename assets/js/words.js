@@ -34,6 +34,8 @@ var words = {
     "element",
     "heading element",
     "semantic element",
+    "span",
+    "src",
     "style",
     "tag"
   ]
