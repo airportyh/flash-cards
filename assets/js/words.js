@@ -23,7 +23,10 @@ var words = {
     "Class Selector",
     "ID Selector",
     "background-color",
-    "overflow"
+    "display",
+    "media query",
+    "overflow",
+    "position"
   ],
   "HTML": [
     "attribute",
