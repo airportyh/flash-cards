@@ -7,3 +7,13 @@ img {
   <span class="highlight">max-width: 100%;</span>
 }
 </pre>
+
+
+A *declaration block* consists of all the declarations that follow a CSS selector:
+
+<pre>
+img {
+ <span class="highlight">max-width: 100%;</span>
+ <span class="highlight">border-radius: 5px;</span>
+}
+</pre>

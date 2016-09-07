@@ -35,7 +35,6 @@ var words = {
   "HTML": [
     "attribute",
     "doctype",
-    "document",
     "element",
     "heading element",
     "href",
