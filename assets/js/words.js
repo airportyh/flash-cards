@@ -23,8 +23,10 @@ var words = {
     "CSS Property",
     "CSS Rule",
     "CSS Selector",
+    "CSS Statement",
     "Class Selector",
     "ID Selector",
+    "at-rule",
     "background-color",
     "box model",
     "display",
@@ -33,6 +35,7 @@ var words = {
     "position"
   ],
   "HTML": [
+    "action",
     "attribute",
     "doctype",
     "element",

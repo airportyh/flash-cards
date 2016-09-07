@@ -9,7 +9,7 @@ img {
 </pre>
 
 
-A *declaration block* consists of all the declarations that follow a CSS selector:
+A *declaration block* consists of all the declarations that follow a selector:
 
 <pre>
 img {

@@ -1,6 +1,6 @@
 # CSS Rule
 
-A CSS rule consists of a [selector](#CSS/CSS_Selector) and its [declaration](#CSS/CSS_Declaration) block.
+A CSS *rule* (or *ruleset*) consists of a [selector](#CSS/CSS_Selector) and its [declaration](#CSS/CSS_Declaration) block. A rule is actually a type of [statement](#CSS/CSS_Statement).
 
 <pre>
 <span class="highlight">img {</span>
