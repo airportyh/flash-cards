@@ -7,6 +7,8 @@ app.controller('CategoryController',
     var idx = Math.floor(Math.random() * this.words.length);
     var word = this.words[idx];
     var path = `/${this.category}/${wordToPath(word)}`;
+    // use RandomizeFactory here
+    
     $location.path(path);
   };
 });
