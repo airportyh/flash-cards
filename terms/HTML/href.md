@@ -1,8 +1,8 @@
 # `href` Attribute
 
-The `href` attribute is a hypertext reference. `href` attributes are used in `<a>` elements and `<link>` elements.
+The `href` attribute is a hypertext reference. `href` attributes are used in [`Anchor`](#HTML/anchor) elements and `<link>` elements.
 
-In an `<a>` element, `href` points to the target of the link (either on the same page or an external document).
+In an `Anchor` element, `href` points to the target of the link (either on the same page or an external document).
 
 <pre>
 &lt;a <span class="highlight">href="#home"</span>&gt;Home&lt;/a&gt;
