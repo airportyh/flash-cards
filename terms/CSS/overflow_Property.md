@@ -1,4 +1,4 @@
-# `overflow` CSS property
+# `overflow` Property
 
 The `overflow` property determines how to handle content that exceeds the boundaries of an element. (The CSS box model determines the boundaries of an element.)
 

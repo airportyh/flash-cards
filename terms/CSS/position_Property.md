@@ -1,4 +1,4 @@
-# `position` CSS Property
+# `position` Property
 
 The `position` property is one of the most important [CSS properties](#CSS/CSS_Property) controlling layout. `position` specifies the way that the element is positioned on the page.
 

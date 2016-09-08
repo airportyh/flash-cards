@@ -1,4 +1,4 @@
-# `display` CSS Property
+# `display` Property
 
 The `display` property is one of the most important CSS properties for controlling layout. `display` controls the type of box used to render an element in the document.
 

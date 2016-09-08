@@ -1,4 +1,4 @@
-# Doctype
+# Doctype Declaration
 
 The doctype declaration tells the browser which version of HTML the document is written in.
 

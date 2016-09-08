@@ -1,4 +1,4 @@
-# `background-color` CSS Property
+# `background-color` Property
 
 Sets the background color of the matching DOM elements. Example,
 the following [CSS rule](#CSS/CSS_Rule) sets the background color
