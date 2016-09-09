@@ -1,7 +1,7 @@
 # Class Selector
 
-A CSS selector that matches all elements in the HTML document with
-specified class. For example, this Class rule:
+A CSS selector matches all elements in the HTML document with a
+specified class. For example, the following Class rule
 
 <pre>
 <span class="highlight">.tile</span> {
@@ -9,7 +9,7 @@ specified class. For example, this Class rule:
 }
 </pre>
 
-will select the following elements in the HTML document
+will select the following elements in the HTML document:
 
 <pre>
 &lt;div <span class="highlight">class=&quot;tile&quot;</span>&gt;

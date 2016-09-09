@@ -9,5 +9,5 @@ categories.forEach(function(category) {
   });
   allWords[category] = words;
 });
-fs.writeFileSync('words.js', 'var words = ' + JSON.stringify(allWords, null, '  ') + ';');
+fs.writeFileSync('assets/js/words.js', 'var words = ' + JSON.stringify(allWords, null, '  ') + ';');
 console.log('Wrote words.js');

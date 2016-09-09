@@ -1,0 +1,11 @@
+<div ng-controller="CategoryController as cat">
+  <div class="panel">
+    <h1>{{cat.category}} Terms</h1>
+    <div class="ui fluid vertical secondary menu">
+      <a class="item" ng-repeat="word in cat.words" href="#/{{cat.category}}/{{word}}">{{word}}</a>
+    </div>
+  </div>
+  <div class="button-wrapper">
+    <button class="ui secondary button" ng-click="cat.start()">Start</button>
+	</div>
+</div>

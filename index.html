@@ -3,13 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Flash Cards</title>
-    <link href="index.css" rel="stylesheet">
-    <script src="words.js"></script>
-    <script src="angular.js"></script>
-    <script src="angular-route.min.js"></script>
-    <script src="showdown.js"></script>
-    <script src="angular-markdown.js"></script>
-    <script src="index.js"></script>
+    <link href="assets/css/semantic.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <!-- <script src="assets/js/semantic.min.js"></script> -->
+    <script src="assets/js/words.js"></script>
+    <script src="assets/js/angular.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+    <script src="assets/js/showdown.js"></script>
+    <script src="assets/js/angular-markdown.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/components/category/CategoryController.js"></script>
+    <script src="app/components/flash-card/FlashCardController.js"></script>
+    <script src="app/components/main/MainController.js"></script>
   </head>
   <body ng-app="flash-cards">
     <div ng-view></div>

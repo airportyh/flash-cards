@@ -3,7 +3,7 @@
   <div ng-show="!main.revealed" class="question">
     <h2>What is</h2>
     <h1>{{main.word}}?</h1>
-    <button
+    <button class="ui secondary button" 
       ng-show="!main.revealed" ng-click="main.reveal()">Reveal</button>
   </div>
   <div ng-show="main.revealed" class="panel">
@@ -11,11 +11,10 @@
       btf-markdown="main.description"
       class="description"
       ng-show="main.revealed"
-      >
-      # hello
-      blah
-    </div>
-    <button ng-show="main.revealed"
-      ng-click="main.another()">Another</button>
+    >
+    </btf-markdown>
+  </div>
+  <div class="button-wrapper">
+    <button class="ui secondary button" ng-show="main.revealed" ng-click="main.another()">Another</button>
   </div>
 </div>

@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-button {
+/*button {
   font-size: 1.4em;
   border-radius: 3px;
   padding: 0.5px 10px;
@@ -19,7 +19,7 @@ button:hover {
 
 button:focus {
   outline: none;
-}
+}*/
 
 .panel {
   max-width: 680px;
@@ -46,9 +46,53 @@ button:focus {
 pre {
   background-color: #333;
   color: white;
+  padding: 3px 5px;
 }
 
 pre .highlight, pre .hl {
   background-color: yellow;
   color: black;
+}
+
+.button-wrapper {
+  padding: 20px;
+}
+
+@media only screen
+and (max-device-width: 680px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 5em; 
+  }
+  p, .item {
+    font-size: 3em;
+  }
+  .question h1 {
+    font-size: 6em;
+  }
+  .panel {
+    padding: 2em;
+  }
+  button {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen
+and (min-device-width: 681px)
+and (max-device-width: 1024px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 4em; 
+  }
+  p, .item {
+    font-size: 2em;
+  }
+  .question h1 {
+    font-size: 5em;
+  }
+  .panel {
+    padding: 2em;
+  }
+  button {
+    font-size: 2em !important;
+  }
 }
